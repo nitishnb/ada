@@ -35,7 +35,7 @@ int main(){
          cout<<"Enter the node of ur Choice:"<<endl;
          cin>>v;
          bfs(v);
-         cout<<"All the nodes reachable from node->"<<v<<" is/are : nn"<<endl;
+         cout<<"All the nodes reachable from node->"<<v<<" is/are : "<<endl;
          for(i=1;i<=n;i++){
              if(visited[i])
                 cout<<i<<"\t";
